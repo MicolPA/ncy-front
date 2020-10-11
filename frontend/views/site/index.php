@@ -4,6 +4,7 @@
 
 $this->title = 'Inicio';
 ?>
+
 <!-- banner section -->
 <section id="home" class="w3l-banner py-5">
     <div class="container py-lg-5 py-md-4 mt-lg-0 mt-md-5 mt-4">
@@ -13,7 +14,7 @@ $this->title = 'Inicio';
                 <h2 class="mb-4">Clases Online</h2>
                 <p>Encuentra tu centro educativo y comienza a tomar tus clases online. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti ullam laboriosam facilis vel ratione sit eligendi perferendis quae atque!</p>
                 <div class="mt-md-5 mt-4">
-                    <a class="btn btn-primary btn-style mr-2 text-white" href="/"> Direcciones Zonales </a>
+                    <a class="btn btn-primary btn-style mr-2 text-white" href="/frontend/web/clases-virtuales/direcciones-zonales"> Direcciones Zonales </a>
                 </div>
             </div>
             <div class="col-lg-5">
@@ -40,7 +41,7 @@ $this->title = 'Inicio';
                     <p class="mt-sm-4 mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
                         ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Non quae, consequatur voluptatem ad.</p>
-                    <a class="btn btn-primary btn-style mt-md-5 mt-4 mr-2 text-white" href="/"> Ver Centros Educativos </a>
+                    <a class="btn btn-primary btn-style mt-md-5 mt-4 mr-2 text-white" href="/frontend/web/clases-virtuales/direcciones-zonales"> Ver Centros Educativos </a>
                 </div>
             </div>
         </div>
@@ -52,7 +53,7 @@ $this->title = 'Inicio';
         <div class="welcome-left text-center py-md-5 py-3">
             <h3>Contamos con una gran cantidad de centros educativos en todo el pais; privados y públicos</h3>
             <!-- <h3 class="mt-4">Call us to order: <a href="tel:+1 123 456 789">+1 123 456 789</a> </h3> -->
-            <a href="#book" class="btn btn-style btn-primary mt-sm-5 mt-4 text-white">Encuentra tu Centro Educativo</a>
+            <a href="/frontend/web/clases-virtuales/direcciones-zonales" class="btn btn-style btn-primary mt-sm-5 mt-4 text-white">Encuentra tu Centro Educativo</a>
         </div>
     </div>
 </div>

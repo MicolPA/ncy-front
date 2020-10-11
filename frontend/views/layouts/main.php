@@ -49,7 +49,7 @@ AppAsset::register($this);
                           <a class="nav-link" href="/">Nosotros</a>
                       </li>
                       <li class="nav-item @@menu__active">
-                          <a class="nav-link" href="/">Direcciones Zonales</a>
+                          <a class="nav-link" href="/frontend/web/clases-virtuales/direcciones-zonales">Direcciones Zonales</a>
                       </li>
                       <li class="nav-item @@contact__active">
                           <a class="nav-link" href="/frontend/web/site/contactanos">Contáctanos</a>

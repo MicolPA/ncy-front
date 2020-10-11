@@ -1,3 +1,31 @@
 .nav-fixed{
     background: white !important;
 }
+
+.outline-blue:hover{
+	background: #002c5f;
+	color: white;
+}
+.bg-blue{
+	background: #002c5f;
+	color: white;
+}
+
+.outline-gray:hover{
+	background: #f2f2f2;
+	color:black;
+}
+
+.outline-red:hover{
+	background: #c81025;
+	color: white;
+}
+.outline-red:hover .menu-item-price h6{
+	background: #c81025;
+	color: white;
+}
+
+.btn-primary:hover{
+	background: #9f091a !important;
+	border: 1px solid #002c5f !important;
+}
