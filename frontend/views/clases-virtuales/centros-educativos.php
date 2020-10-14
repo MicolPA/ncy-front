@@ -27,7 +27,6 @@ $this->params['breadcrumbs'][] = $this->title;
                         		<p class="mb-4 mt-lg-0 mt-2">Selecciona tu curso y comienza tu clases.</p>
                         	</div>
                         	<?php foreach ($cursos as $c): ?>
-			                    <?php $profesor = \frontend\models\Profesores::find()->where(['curso_id' => $c->id])->one(); ?>
 	                        	<div class="menu-item region-">
 		                            <a href="/frontend/web/clases-virtuales/curso/<?= $c->slug ?>" class="no-link">
 		                            	<div class="outline-red pt-2">
@@ -36,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
 			                                        <h6><span class="badge text-white mr-1 bg-primary"><i class="fas fa-chevron-circle-right"></i></span> Curso <?= $c->name ?></h6>
 			                                    </div>
 			                                    <div class="col-6 menu-item-price text-right">
-			                                        <h6>Profesor(a) <?= $profesor['nombre'] . ' ' . $profesor['apellido']?> </h6>
+			                                        <h6>Profesor(a) <?= isset($c->profesor->nombre) ? $c->profesor->nombre . " " . $c->profesor->apellido : "No asignado"; ?> </h6>
 			                                    </div>
 			                                </div>
 			                            </div>
