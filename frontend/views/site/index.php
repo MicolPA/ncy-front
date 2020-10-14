@@ -37,6 +37,7 @@ $this->title = 'Inicio';
                 </div>
                 <div class="col-lg-6 mt-lg-0 mt-md-5 mt-4 about-right-faq align-self">
                     <h5 class="title-small mb-1">Our story</h5>
+                    <!-- <audio autoplay controls><source src="http://162.210.196.142:22714/;.mp3/;stream.nsv" type="audio/mpeg"></source> -->
                     <h3 class="title-big">Contamos con una gran cantidad de escuelas en <span>todo el pais</span></h3>
                     <p class="mt-sm-4 mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
                         ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
