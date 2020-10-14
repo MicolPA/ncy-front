@@ -41,7 +41,15 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-            ],
+                'site/index' => 'site/index',
+                'site/contactanos' => 'site/contactanos',
+                'site/nosotros' => 'site/nosotros',
+                'clases-virtuales/direcciones-zonales' => 'clases-virtuales/direcciones-zonales',
+                'clases-virtuales/distritos' => 'clases-virtuales/distritos',
+                'clases-virtuales/curso/<curso>' => 'clases-virtuales/curso',
+                'clases-virtuales/<slug>' => 'clases-virtuales/slug',
+                'defaultRoute' => '/site/index',
+            ], 
         ],
         
     ],

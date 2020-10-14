@@ -21,7 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="row map-content-9">
                     <div class="col-lg-8">
                         <h3 class="title-big">Selecciona tu <span>zona</span></h3>
-                        <p class="mb-4 mt-lg-0 mt-2">Selecciona tu zona y región para encontrar los distitos que agrupan a los Centros Educativos.</p>
+                        <p class="mb-4 mt-lg-0 mt-2">Selecciona tu zona y región para encontrar los distritos que agrupan a los Centros Educativos.</p>
                         <div class="row">
                         	<?php foreach ($zonas as $z): ?>
                         		<div class="col-md-4">
@@ -61,9 +61,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                     </div>
                     <div class="col-lg-4 cont-details">
-                        <address>
-                            <img src="/frontend/web/images/banner-vertical.png" width="100%">
-                        </address>
+                        <?= $this->render('/layouts/aside') ?>
                     </div>
                 </div>
             </div>

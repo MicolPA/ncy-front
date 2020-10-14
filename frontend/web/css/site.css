@@ -29,3 +29,11 @@
 	background: #9f091a !important;
 	border: 1px solid #002c5f !important;
 }
+
+.show{
+	background: white;
+}
+
+.text-blue{
+	color: #002c5f;
+}

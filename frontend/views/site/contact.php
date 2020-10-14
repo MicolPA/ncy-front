@@ -22,8 +22,14 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="top-map">
                 <div class="row map-content-9">
                     <div class="col-lg-8">
-                        <h3 class="title-big">Contáctanos</h3>
-                        <p class="mb-4 mt-lg-0 mt-2">Your email address will not be published. Required fields are marked *</p>
+                        <h3 class="title-big mb-3">Contáctanos</h3>
+                        <?php if(Yii::$app->session->hasFlash('success')):?>
+                            <?php $msj = Yii::$app->session->getFlash('success');?>
+                            <div class="alert alert-success" role="alert">
+                              <?= $msj ?>
+                            </div>
+                        <?php endif; ?> 
+                        <!-- <p class="mb-4 mt-lg-0 mt-2">Your email address will not be published. Required fields are marked *</p> -->
                         <?php $form = ActiveForm::begin(['id' => 'contact-form', 'enableClientScript' => false]); ?>
                             <div class="form-grid">
                                 <?= $form->field($model, 'name')->textInput(['class' => '', 'placeholder' => 'Nombre', 'required' => 'required'])->label(false) ?>
@@ -39,11 +45,11 @@ $this->params['breadcrumbs'][] = $this->title;
                     <div class="col-lg-4 cont-details">
                         <address>
                             <h5 class="mt-md-5 mt-4">Información de contacto</h5>
-                            <p><span class="fa fa-map-marker"></span>Mi dirección, #001</p>
-                            <p> <a href="mailto:contacto@ncy1.com"><span
-                                        class="fa fa-envelope"></span>contacto@ncy1.com</a></p>
-                            <p><span class="fa fa-phone"></span> 809-608-0454</p>
-                            <p><span class="fa fa-phone"></span> 829-568-3217</p>
+                            <p><span class="fa fa-map-marker mr-1 text-blue"></span> Mi dirección, #001</p>
+                            <p class=" text-blue"> <a href="mailto:contacto@ncy1.com"><span
+                                        class="fa fa-envelope text-blue"></span> contacto@ncy1.com</a></p>
+                            <p><span class="fa fa-phone text-blue"></span> 809-608-0454</p>
+                            <p><span class="fa fa-phone text-blue"></span> 829-568-3217</p>
 
                             <!-- <h5 class="mt-4 mb-3">Opening Hours</h5> -->
                             <!-- <div class="hours">

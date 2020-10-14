@@ -120,12 +120,21 @@ class SiteController extends Controller
     public function actionContactanos()
     {
         $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
-            } else {
-                Yii::$app->session->setFlash('error', 'There was an error sending your message.');
-            }
+        if ($model->load(Yii::$app->request->post())) {
+
+            $this->layout = false;
+            Yii::$app->mailer->compose()
+                ->setFrom('linettekill1@gmail.com')
+                ->setTo('micolpa08@gmail.com')
+                ->setSubject('Nuevo correo de NCY1.COM')
+                ->setHtmlBody($this->render('email', ['nombre' =>  $model->name, 'correo' => $model->email, 'cuerpo' => $model->body]))
+                ->send();
+
+            // if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                Yii::$app->session->setFlash('success', 'Mensaje enviado correctamente. Le estaremos respondiendo lo más rápido posible.');
+            // } else {
+                // Yii::$app->session->setFlash('error', 'There was an error sending your message.');
+            // }
 
             return $this->refresh();
         } else {

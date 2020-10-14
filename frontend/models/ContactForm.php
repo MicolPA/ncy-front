@@ -50,12 +50,19 @@ class ContactForm extends Model
      */
     public function sendEmail($email)
     {
-        return Yii::$app->mailer->compose()
-            ->setTo($email)
-            ->setFrom([Yii::$app->params['senderEmail'] => Yii::$app->params['senderName']])
-            ->setReplyTo([$this->email => $this->name])
-            ->setSubject($this->subject)
-            ->setTextBody($this->body)
+        return Yii::$app->mailer->compose(['html' => '@web/views/site/email'], ['nombre' =>  $this->name, 'correo' => $this->email, 'cuerpo' => $this->body])
+            ->setFrom(['micolpa08@gmail.com'])
+            ->setTo('linettekill1@gmail.com')
+            ->setSubject('Nuevo correo de NCY1.COM')
             ->send();
+
+    //     return Yii::$app->mailer->compose()
+    //         ->setTo('linettekill1@gmail.com')
+    //         ->setFrom([Yii::$app->params['senderEmail'] => Yii::$app->params['senderName']])
+    //         // ->setReplyTo([$this->email => $this->name])
+    //         ->setSubject('Nuevo correo de ncy1.com')
+    //         ->setHtmlBody($this->render('/site/email', ['nombre' =>  $this->name, 'correo' => $this->email, 'cuerpo' => $this->body]))
+    //         // ->setTextBody($this->body)
+    //         ->send();
     }
 }
