@@ -38,7 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
 				            	<label class="font-weight-bold h5">Curso : </label>
 				            	<span class="mb-2 mt-lg-0 mt-2 h5"><?= $curso->name ?></span> <br>
 
-				            	<label class="font-weight-bold h5">Profesor: </label>
+				            	<label class="font-weight-bold h5">Profesor(a): </label>
 				            	<span class="mb-4 mt-lg-0 mt-2 h5"><?= isset($curso->profesor->nombre) ? $curso->profesor->nombre . " " . $curso->profesor->apellido : "No asignado"; ?></span><br>
 
 				            	<label class="font-weight-bold h5">Centro Educativo : </label>

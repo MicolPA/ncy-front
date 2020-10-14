@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
 			                                        <h6><span class="badge text-white mr-1 bg-primary"><i class="fas fa-chevron-circle-right"></i></span> Curso <?= $c->name ?></h6>
 			                                    </div>
 			                                    <div class="col-6 menu-item-price text-right">
-			                                        <h6>Profesor <?= $profesor['nombre'] . ' ' . $profesor['apellido']?> </h6>
+			                                        <h6>Profesor(a) <?= $profesor['nombre'] . ' ' . $profesor['apellido']?> </h6>
 			                                    </div>
 			                                </div>
 			                            </div>
