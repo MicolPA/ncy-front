@@ -30,7 +30,7 @@ AppAsset::register($this);
         <div class="container">
           <nav class="navbar navbar-expand-lg stroke px-0 pt-2">
               <h1> <a class="navbar-brand" href="/">
-                  <img src="/frontend/web/images/burger.png" alt="burger logo"width="35px" /> NCY
+                  <img src="/frontend/web/images/burger.png" alt="NCY"width="35px" /> NCY
                   </a></h1>
               <button class="navbar-toggler collapsed text-white p-1" type="button" data-toggle="collapse"
                   data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -106,7 +106,7 @@ AppAsset::register($this);
         <!-- logo -->
         <h2>
           <a class="logo text-wh" href="-">
-            <img src="/frontend/web/images/burger.png" alt="burger logo" width="35px" /> NCY
+            <img src="/frontend/web/images/burger.png" alt="NCY" width="35px" /> NCY
           </a>
         </h2>
         <!-- //logo -->
@@ -119,8 +119,7 @@ AppAsset::register($this);
           <h3>Contáctanos</h3>
         </div>
         <div class="footer-text mt-4">
-          <p><strong>Address :</strong> Burger Bun, 208 Trainer Avenue street, Corner
-            Market, NY - 62617.</p>
+          <p><strong>Address :</strong> Mi direccion #100</p>
           <p class="my-2"><strong>Phone :</strong> 809-608-0454 / 829-568-3217</p>
           <p><strong>Email :</strong> <a href="mailto:contacto@ncy1.com">contacto@ncy1.com</a></p>
         </div>
