@@ -15,6 +15,7 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 
+
 /**
  * Site controller
  */
@@ -74,7 +75,11 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        return $this->render('index',[
+            'videos' => \frontend\models\Videos::find()->count(),
+            'model' => \frontend\models\CentrosEducativos::find()->all(),
+            'alumnos' => \frontend\models\Alumnos::find()->count(),
+        ]);
     }
 
     /**
@@ -149,7 +154,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionAbout()
+    public function actionNosotros()
     {
         return $this->render('about');
     }

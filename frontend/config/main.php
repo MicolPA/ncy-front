@@ -42,8 +42,9 @@ return [
             'showScriptName' => false,
             'rules' => [
                 'site/index' => 'site/index',
-                'site/contactanos' => 'site/contactanos',
-                'site/nosotros' => 'site/nosotros',
+                'contactanos' => 'site/contactanos',
+                'nosotros' => 'site/nosotros',
+                'clases-virtuales/centros-educativos' => 'clases-virtuales/centros-educativos',
                 'clases-virtuales/direcciones-zonales' => 'clases-virtuales/direcciones-zonales',
                 'clases-virtuales/distritos' => 'clases-virtuales/distritos',
                 'clases-virtuales/curso/<curso>' => 'clases-virtuales/curso',

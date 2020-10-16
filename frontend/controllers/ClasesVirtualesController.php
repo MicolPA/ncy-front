@@ -74,4 +74,8 @@ class ClasesVirtualesController extends \yii\web\Controller
 
     }
 
+    public function actionCentrosEducativos($centro){
+        $this->redirect(["/clases-virtuales/$centro"]);
+    }
+
 }

@@ -44,15 +44,14 @@ AppAsset::register($this);
                       <li class="nav-item active">
                           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                       </li>
-                      <li class="nav-item @@about__active">
-                          <!-- <a class="nav-link" href="/frontend/web/site/nosotros">Nosotros</a> -->
-                          <a class="nav-link" href="/">Nosotros</a>
-                      </li>
                       <li class="nav-item @@menu__active">
                           <a class="nav-link" href="/frontend/web/clases-virtuales/direcciones-zonales">Direcciones Zonales</a>
                       </li>
+                      <li class="nav-item @@nosotros__active">
+                          <a class="nav-link" href="/frontend/web/nosotros">Nosotros</a>
+                      </li>
                       <li class="nav-item @@contact__active">
-                          <a class="nav-link" href="/frontend/web/site/contactanos">Contáctanos</a>
+                          <a class="nav-link" href="/frontend/web/contactanos">Contáctanos</a>
                       </li>
                       <!--/search-right-->
                       <div class="search-right">
@@ -131,24 +130,24 @@ AppAsset::register($this);
         <ul class="top-right-info">
           <li class="facebook-w3">
             <a href="#facebbok">
-              <span class="fa fa-facebook-f"></span>
+              <i class="fab fa-facebook-f"></i>
             </a>
           </li>
           <li class="twitter-w3">
             <a href="#twitter">
-              <span class="fa fa-twitter"></span>
+              <span class="fab fa-twitter"></span>
             </a>
           </li>
           <li class="google-w3">
-            <a href="#google">
-              <span class="fa fa-google-plus"></span>
+            <a href="https://www.youtube.com/channel/UCv5BIlzG0AmEBQMf__ulM_Q">
+              <span class="fab fa-youtube"></span>
             </a>
           </li>
-          <li class="dribble-w3">
+          <!-- <li class="dribble-w3">
             <a href="#dribble">
               <span class="fa fa-dribbble"></span>
             </a>
-          </li>
+          </li> -->
         </ul>
         <!--
         <div class="info-form-right mt-4 p-0">

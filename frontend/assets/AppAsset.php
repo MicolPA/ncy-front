@@ -21,7 +21,7 @@ class AppAsset extends AssetBundle
         // 'https://code.jquery.com/jquery-3.3.1.min.js',
         'js/jquery-3.3.1.min.js',
         'https://code.jquery.com/jquery-3.1.0.js',
-        'js/theme-change.js',
+        // 'js/theme-change.js',
         'js/owl.carousel.js',
         'js/jquery.magnific-popup.min.js',
         'js/counter.js',
