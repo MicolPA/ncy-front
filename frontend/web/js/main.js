@@ -12,4 +12,7 @@ function obtenerRegiones(id){
 	 scrollTop: $(".regiones-d").offset().top
 	 }, 0);
 }
-
+console.log($(window). width() );
+if ($(window). width() < 500) {
+	$("mine").html("Máster Educativo <br> Y Algo Más");
+}

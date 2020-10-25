@@ -13,8 +13,8 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         '//fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;800&display=swap',
-        'css/style-starter.css',
-        'css/site.css?v=2',
+        'css/style-starter.css?v=2',
+        'css/site.css?v=3',
         'css/all.min.css',
     ];
     public $js = [
@@ -29,7 +29,7 @@ class AppAsset extends AssetBundle
         'js/smartphoto.js',
         'js/bootstrap.min.js',
         'js/all.min.js',
-        'js/main.js',
+        'js/main.js?v=1',
     ];
     public $depends = [
         // 'yii\web\YiiAsset',

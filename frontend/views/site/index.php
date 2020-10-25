@@ -26,7 +26,7 @@ use kartik\select2\Select2;
             <div class="col-lg-6 col-sm-12">
                 <h3 class="">Centros Educativos </h3>
                 <h2 class="mb-4">Clases Online</h2>
-                <p>Encuentra tu centro educativo y comienza a tomar tus clases online. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti ullam laboriosam facilis vel ratione sit eligendi perferendis quae atque!</p>
+                <p>Encuentra tu centro educativo y comienza a tomar tus clases online. Diariamente, trabajamos para sumar más centros educativos localizados en toda la República. Nuestra meta es lograr que todos los centros tengan un espacio diseñado para el aprendizaje de manera virtual.</p>
                 <div class="mt-md-5 mt-4">
                     <a class="btn btn-primary btn-style mr-2 text-white" href="/frontend/web/clases-virtuales/direcciones-zonales"> Direcciones Zonales </a>
                 </div>
@@ -53,9 +53,7 @@ use kartik\select2\Select2;
                     <h5 class="title-small mb-1">Nosotros</h5>
                     <!-- <audio autoplay controls><source src="http://162.210.196.142:22714/;.mp3/;stream.nsv" type="audio/mpeg"></source> -->
                     <h3 class="title-big">Contamos con una gran cantidad de escuelas en <span>todo el pais</span></h3>
-                    <p class="mt-sm-4 mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                        ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Non quae, consequatur voluptatem ad.</p>
+                    <p class="mt-sm-4 mt-3">Diariamente, trabajamos para sumar más centros educativos localizados en toda la República. Nuestra meta es lograr que todos los centros tengan un espacio diseñado para el aprendizaje de manera virtual.</p>
                     <a class="btn btn-primary btn-style mt-md-5 mt-4 mr-2 text-white" href="/frontend/web/clases-virtuales/direcciones-zonales"> Ver Centros Educativos </a>
                 </div>
             </div>
@@ -137,6 +135,28 @@ use kartik\select2\Select2;
         </div>
     </div>
 </div>
+<section class="w3l-index3" id="work">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="row">
+                <div class="col-md-8 m-auto text-center">
+                    <form action='/frontend/web/clases-virtuales/centros-educativos'  method="get">
+                        <div class="title-content text-center mb-lg-5">
+                            <h3 class="title-big font-weight-bold" style="font-size: 3rem">Suscríbete a nustro Canal de Youtube</h3>
+                        </div>
+                        <div class="input-group mb-3 text-center" style="font-size: 22px !important">
+                            
+                            <script src="https://apis.google.com/js/platform.js"></script>
+                            <div class="g-ytsubscribe" data-channelid="UCv5BIlzG0AmEBQMf__ulM_Q" data-layout="full" data-count="default"></div>
+                            
+                        </div>
+
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
 <script>
     setTimeout(function(){
         var script = document.createElement('script');

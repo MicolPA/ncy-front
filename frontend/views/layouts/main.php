@@ -20,7 +20,7 @@ AppAsset::register($this);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?> | NCY</title>
+    <title><?= Html::encode($this->title) ?> | Máster Educativo y Algo Más</title>
     <?php $this->head() ?>
 </head>
 <body>
@@ -30,7 +30,7 @@ AppAsset::register($this);
         <div class="container">
           <nav class="navbar navbar-expand-lg stroke px-0 pt-2">
               <h1> <a class="navbar-brand" href="/">
-                  <img src="/frontend/web/images/burger.png" alt="NCY"width="35px" /> NCY
+                  <img src="/frontend/web/images/logo.png" alt="Máster Educativo y Algo Más"width="35px" /> <mine>Máster Educativo y Algo Más</mine>
                   </a></h1>
               <button class="navbar-toggler collapsed text-white p-1" type="button" data-toggle="collapse"
                   data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -47,8 +47,11 @@ AppAsset::register($this);
                       <li class="nav-item @@menu__active">
                           <a class="nav-link" href="/frontend/web/clases-virtuales/direcciones-zonales">Direcciones Zonales</a>
                       </li>
-                      <li class="nav-item @@nosotros__active">
+                      <!-- <li class="nav-item @@nosotros__active">
                           <a class="nav-link" href="/frontend/web/nosotros">Nosotros</a>
+                      </li> -->
+                       <li class="nav-item @@nosotros__active">
+                          <a class="nav-link" href="https://www.youtube.com/channel/UCv5BIlzG0AmEBQMf__ulM_Q" target="_blank">Canal de Youtube</a>
                       </li>
                       <li class="nav-item @@contact__active">
                           <a class="nav-link" href="/frontend/web/contactanos">Contáctanos</a>
@@ -105,7 +108,7 @@ AppAsset::register($this);
         <!-- logo -->
         <h2>
           <a class="logo text-wh" href="-">
-            <img src="/frontend/web/images/burger.png" alt="NCY" width="35px" /> NCY
+            <img src="/frontend/web/images/logo.png" alt=" Máster Educativo y Algo Más" width="35px" />  Máster Educativo y Algo Más
           </a>
         </h2>
         <!-- //logo -->

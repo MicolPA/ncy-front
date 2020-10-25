@@ -47,7 +47,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                     </div>
                     <div class="col-lg-4 cont-details">
-                        <?= $this->render('/layouts/aside') ?>
+                        <?= $this->render('/layouts/aside', ['anuncios' => $anuncios]) ?>
                     </div>
                 </div>
             </div>

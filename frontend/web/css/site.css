@@ -3,11 +3,11 @@
 }
 
 .outline-blue:hover{
-	background: #002c5f;
+	background: #0149ad;
 	color: white;
 }
 .bg-blue{
-	background: #002c5f;
+	background: #0149ad;
 	color: white;
 }
 
@@ -17,11 +17,11 @@
 }
 
 .outline-red:hover{
-	background: #c81025;
+	background: #ff1717;
 	color: white;
 }
 .outline-red:hover .menu-item-price h6{
-	background: #c81025;
+	background: #ff1717;
 	color: white;
 }
 
@@ -35,5 +35,11 @@
 }
 
 .text-blue{
-	color: #002c5f;
+	color: #0149ad;
 }
+
+/*@media only screen and (max-width: 1199px){
+	.navbar .navbar-brand {
+	    font-size: 17px !important;
+	}
+}*/
