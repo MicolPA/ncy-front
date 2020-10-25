@@ -44,6 +44,14 @@ $this->params['breadcrumbs'][] = $this->title;
 				            	<label class="font-weight-bold h5">Centro Educativo : </label>
 				            	<span class="mb-2 mt-lg-0 mt-2 h5"><?= $curso->centroEducativo->name ?></span> <br>
 
+				            	<label class="font-weight-bold h5">Dirección : </label>
+				            	<span class="mb-2 mt-lg-0 mt-2 h5"><?= $curso->centroEducativo->direccion ?></span> <br>
+
+				            	<?php if (isset($curso->centroEducativo->distrito->region->zona->name) and isset($curso->centroEducativo->distrito->region->name) and isset($curso->centroEducativo->distrito->name)): ?>
+				            		<label class="font-weight-bold h5">Zona/Región/Distrito : </label>
+				            		<span class="mb-2 mt-lg-0 mt-2 h5"><?= $curso->centroEducativo->distrito->region->zona->name . "-" . $curso->centroEducativo->distrito->region->name . "-" . $curso->centroEducativo->distrito->name?></span> <br>
+				            	<?php endif ?>
+
 				            	
 				            </div>
 

@@ -142,7 +142,7 @@ use kartik\select2\Select2;
                 <div class="col-md-8 m-auto text-center">
                     <form action='/frontend/web/clases-virtuales/centros-educativos'  method="get">
                         <div class="title-content text-center mb-lg-5">
-                            <h3 class="title-big font-weight-bold" style="font-size: 3rem">Suscríbete a nustro Canal de Youtube</h3>
+                            <h3 class="title-big font-weight-bold" style="font-size: 3rem">Suscríbete a nuestro Canal de Youtube</h3>
                         </div>
                         <div class="input-group mb-3 text-center" style="font-size: 22px !important">
                             
