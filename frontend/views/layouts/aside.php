@@ -11,7 +11,7 @@ $anuncios = \frontend\models\Anuncios::find()->where(['tipo' => 2, 'active' => 1
 	<?php foreach ($anuncios as $anuncio): ?>
 		<div class="col-md-12">
 	    	<!-- <img src="/frontend/web/images/banner-vertical.png" width="100%"> -->
-	    	<img src="/frontend/web/<?= $anuncio->url ?>" width="100%" alt="<?= $anuncio->nombre ?>">
+	    	<img src="http://admin.mastereducativoyalgomas.com/frontend/web/<?= $anuncio->url ?>" width="100%" alt="<?= $anuncio->nombre ?>">
 		</div>
 	<?php endforeach ?>
 </div>
