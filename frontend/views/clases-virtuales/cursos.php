@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 
-$this->title = "Curso $curso->name -" . $curso->centroEducativo->name;
+$this->title = "Curso $curso->name - " . $curso->centroEducativo->name;
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 
