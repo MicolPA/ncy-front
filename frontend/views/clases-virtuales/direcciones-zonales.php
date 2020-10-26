@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         		<div class="col-md-4">
 	                        		<a class="no-link text-dark" href="javascript:obtenerRegiones(<?= $z->id ?>)">
 	                        			<div class="card text-center font-weight-bold pt-3 pb-3 mb-3 outline-blue" id="<?= $z->id ?>">
-			                        		<?= strtoupper($z->name) ?>
+			                        		ZONA <?= str_replace('ZONA', '', strtoupper($z->name)) ?>
 			                        	</div>
 	                        		</a>
 	                        	</div>

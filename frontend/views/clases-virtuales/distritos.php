@@ -49,7 +49,7 @@ $this->params['breadcrumbs'][] = $this->title;
 			                                        <h6><span class="badge text-white mr-1 bg-primary"><i class="fas fa-chevron-circle-right"></i></span> <?= $r->name ?></h6>
 			                                    </div>
 			                                    <div class="col-4 menu-item-price text-right">
-			                                        <h6><?= $count ?> Cursos</h6>
+			                                        <h6><?= $r->private == 1 ? "Privado" : "Público" ?></h6>
 			                                    </div>
 			                                </div>
 			                            </div>

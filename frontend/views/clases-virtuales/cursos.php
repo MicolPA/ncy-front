@@ -5,6 +5,7 @@ use yii\grid\GridView;
 
 $this->title = "Curso $curso->name - " . $curso->centroEducativo->name;
 $this->params['breadcrumbs'][] = $this->title;
+$tipo = $curso->centroEducativo->private == 1 ? "Privado" : "Público";
 ?>
 
 <section class="w3l-about-breadcrumb">
@@ -42,7 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
 				            	<span class="mb-4 mt-lg-0 mt-2 h5"><?= isset($curso->profesor->nombre) ? $curso->profesor->nombre . " " . $curso->profesor->apellido : "No asignado"; ?></span><br>
 
 				            	<label class="font-weight-bold h5">Centro Educativo : </label>
-				            	<span class="mb-2 mt-lg-0 mt-2 h5"><?= $curso->centroEducativo->name ?></span> <br>
+				            	<span class="mb-2 mt-lg-0 mt-2 h5"><?= $curso->centroEducativo->name . " ( $tipo )" ?></span> <br>
 
 				            	<label class="font-weight-bold h5">Dirección : </label>
 				            	<span class="mb-2 mt-lg-0 mt-2 h5"><?= $curso->centroEducativo->direccion ?></span> <br>
