@@ -1,5 +1,5 @@
 <?php 
-$anuncios = \frontend\models\Anuncios::find()->where(['tipo' => 2, 'active' => 1])->limit(3)->all();
+$anuncios = \frontend\models\Anuncios::find()->where(['tipo' => 1, 'active' => 1])->limit(3)->all();
 
  ?>
 <div class="row">
