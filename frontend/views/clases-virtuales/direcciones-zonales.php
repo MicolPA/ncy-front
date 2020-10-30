@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <section class="w3l-contact-7 py-5" id="contact">
     <div class="contacts-9 py-lg-5 py-md-4">
         <div class="container">
-            <div class="top-map">
+            <div class="top-map"> 
                 <div class="row map-content-9">
                     <div class="col-lg-8">
                         <h3 class="title-big">Selecciona tu <span>zona</span></h3>
