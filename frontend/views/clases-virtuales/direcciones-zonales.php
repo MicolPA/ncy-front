@@ -21,7 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="row map-content-9">
                     <div class="col-lg-8">
                         <h3 class="title-big">Selecciona tu <span>zona</span></h3>
-                        <p class="mb-4 mt-lg-0 mt-2">Selecciona tu zona y región para encontrar los distritos que agrupan a los Centros Educativos.</p>
+                        <p class="mb-4 mt-lg-0 mt-2">Selecciona tu zona y regional para encontrar los distritos que agrupan a los Centros Educativos.</p>
                         <div class="row">
                         	<?php foreach ($zonas as $z): ?>
                         		<div class="col-md-4">
@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         <div class="regiones-d mt-lg-5" style="height: 80px"></div>
                         <div class="">
                         	<div class="mt-lg-5 regiones pt-lg-5" style="display: none">
-                        		<h3 class="title-big">Selecciona una <span>Región</span></h3>
+                        		<h3 class="title-big">Selecciona una <span>Regional</span></h3>
                         	</div>
                         	<?php foreach ($regiones as $r): ?>
 			                    <?php $count = \frontend\models\Distritos::find()->where(['region_id' => $r->id])->count(); ?>
@@ -46,7 +46,7 @@ $this->params['breadcrumbs'][] = $this->title;
 		                            	<div class="outline-red pt-2">
 			                                <div class="row border-dot no-gutters">
 			                                    <div class="col-8 menu-item-name">
-			                                        <h6><span class="badge text-white mr-1 bg-primary"><i class="fas fa-chevron-circle-right"></i></span> Región <?= $r->name ?></h6>
+			                                        <h6><span class="badge text-white mr-1 bg-primary"><i class="fas fa-chevron-circle-right"></i></span> Regional <?= $r->name ?></h6>
 			                                    </div>
 			                                    <div class="col-4 menu-item-price text-right">
 			                                        <h6><?= $count ?> Distritos</h6>

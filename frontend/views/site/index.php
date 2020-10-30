@@ -25,7 +25,7 @@ use kartik\select2\Select2;
         <div class="row align-items-center py-lg-5 py-4 mt-4" style="background-image: url(/frontend/web/images/stock-2.jpg)">
             <div class="col-lg-6 col-sm-12">
                 <h3 class="">Centros Educativos </h3>
-                <h2 class="mb-4">Clases Online</h2>
+                <h2 class="text-white mb-4" style="-webkit-text-stroke-width:0px">Clases Online</h2>
                 <p>Encuentra tu centro educativo y comienza a tomar tus clases online. Diariamente, trabajamos para sumar más centros educativos localizados en toda la República. Nuestra meta es lograr que todos los centros tengan un espacio diseñado para el aprendizaje de manera virtual.</p>
                 <div class="mt-md-5 mt-4">
                     <a class="btn btn-primary btn-style mr-2 text-white" href="/frontend/web/clases-virtuales/direcciones-zonales"> Direcciones Zonales </a>
